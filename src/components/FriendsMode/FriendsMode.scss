@@ -1,0 +1,49 @@
+@import '../../scss/global-imports.scss';
+
+.friendsmode {
+    display: flex;
+    align-items: center;
+    gap: rem(15);
+
+    &__photo {
+        width: rem(50);
+        height: rem(50);
+        overflow: hidden;
+        border-radius: 50%;
+
+        &>img {
+            width: 100%;
+        }
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        gap: rem(5);
+
+        &__mode{
+            display: flex;
+            align-items: center;
+            gap: rem(10);
+
+            & > p{
+                font-size: rem(14);
+                color: var(--gray);
+            }
+        }
+    }
+
+    &__Absent{
+        width: rem(10);
+        height: rem(10);
+        background: var(--orange);
+        border-radius: 50%;
+    }
+
+    &__Listening{
+        width: rem(10);
+        height: rem(10);
+        background: var(--green);
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "photo": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "name": "Kathryn Murphy",
+        "mode": "Listening",
+        "music": "Gavin Mikhail"
+    },
+
+    {
+        "id": "2",
+        "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "name": "Bessie Cooper",
+        "mode": "Absent",
+        "music": ""
+    },
+
+    {
+        "id": "3",
+        "photo": "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "name": "Jane Cooper",
+        "mode": "Listening",
+        "music": "C4C"
+    },
+
+    {
+        "id": "4",
+        "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "name": "Esther Howard",
+        "mode": "Listening",
+        "music": "Sleepy Fish"
+    },
+
+    {
+        "id": "5",
+        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "name": "Leslie Alexander",
+        "mode": "Absent",
+        "music": ""
+    },
+
+    {
+        "id": "6",
+        "photo": "https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+        "name": "Arlene McCoy",
+        "mode": "Listening",
+        "music": "WYS"
+    },
+
+    {
+        "id": "7",
+        "photo": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "name": "Courtney Henry",
+        "mode": "Absent",
+        "music": ""
+    }
+]

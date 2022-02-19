@@ -1,0 +1,19 @@
+@import '../../scss/global-imports.scss';
+
+.friendsactivity {
+    &__container {
+        width: fit-content;
+        border-radius: rem(25);
+        background: var(--black300);
+        border: 1px solid var(--black50);
+        padding: rem(19);
+
+        display: flex;
+        flex-direction: column;
+        gap: rem(35);
+
+        & > div{
+            margin-bottom: 0;
+        }
+    }
+}

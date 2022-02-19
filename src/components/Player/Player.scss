@@ -1,0 +1,21 @@
+@import '../../scss/global-imports.scss';
+
+.player{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: rem(70);
+    padding: rem(16) rem(26);
+
+    height: rem(92);
+    border-top: 1px solid var(--gray);
+    background: var(--black);
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    z-index: 100;
+}

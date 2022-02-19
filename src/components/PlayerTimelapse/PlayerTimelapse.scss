@@ -1,0 +1,103 @@
+@import '../../scss/global-imports.scss';
+
+.playertimelapse{
+
+    display: flex;
+    align-items: center;
+    gap: rem(30);
+
+    &__actions{
+        display: flex;
+        align-items: center;
+        gap: rem(30);
+
+        img{
+            &:hover{
+                cursor: pointer;
+                filter: invert(71%) sepia(100%) saturate(577%) hue-rotate(88deg) brightness(200%) contrast(93%);
+            }
+
+            &:nth-child(2){
+                width: rem(50);  
+                height: rem(50);  
+                border-radius: 50%;
+            }
+        }
+    }
+
+    &__time{
+        display: flex;
+        align-items: center;
+        gap: rem(10);
+
+        & > p{
+            font-family: "DM Sans";
+            font-weight: normal;
+            font-size: rem(14);
+            color: var(--white);
+
+        }
+
+        &__line{
+            width: rem(373);
+            height: rem(3.75);
+            border-radius: rem(3);
+            background: var(--black50);
+
+            &--played{
+                @extend .playertimelapse__time__line;
+                width: rem(200);
+                background-color: var(--green);
+                position: relative;
+
+                &:hover::before{
+                    content: '';
+                    width: rem(10);
+                    height: rem(10);
+                    background-color: var(--white);
+                    display: flex;
+                    position: absolute;
+                    right: 0;
+                    border-radius: 50%;
+                    transform: translate(rem(5), rem(-3.5));
+                    cursor: pointer;
+                }
+            }  
+
+        }
+    }
+
+    &__volume{
+        display: flex;
+        align-items: center;
+        gap: rem(10);
+
+        &__line{
+            width: rem(97);
+            height: rem(3.75);
+            border-radius: rem(3);
+            background: var(--black50);
+
+            &--played{
+                @extend .playertimelapse__volume__line;
+                width: rem(60);
+                background-color: var(--green);
+                position: relative;
+
+                &:hover::before{
+                    content: '';
+                    width: rem(10);
+                    height: rem(10);
+                    background-color: var(--white);
+                    display: flex;
+                    position: absolute;
+                    right: 0;
+                    border-radius: 50%;
+                    transform: translate(rem(5), rem(-3.5));
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+}

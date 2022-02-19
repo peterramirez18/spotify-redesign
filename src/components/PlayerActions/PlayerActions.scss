@@ -1,0 +1,16 @@
+@import '../../scss/global-imports.scss';
+
+.playeractions{
+    display: flex;
+    align-items: center;
+    gap: rem(30);
+
+    img{
+        width: rem(18);
+
+        &:hover{
+            cursor: pointer;
+            filter: invert(71%) sepia(100%) saturate(577%) hue-rotate(88deg) brightness(200%) contrast(93%);
+        }
+    }
+}

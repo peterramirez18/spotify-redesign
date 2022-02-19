@@ -1,0 +1,50 @@
+@import '../../scss/global-imports.scss';
+
+.trackweekmusic{
+    display: flex;
+    justify-content: space-between;
+    gap: rem(50);
+
+    &__photo{
+        border-radius: rem(7);
+        width: rem(45);
+    }
+
+    & > div{
+        display: flex;
+        align-items: center;
+        gap: rem(15);
+
+        & > div > p{
+            font-weight: 500;
+        }
+    }
+
+    &__owner{
+        font-family: "DM Sans";
+        font-weight: 500;
+        font-size: 18px;
+        color: var(--gray);
+    }
+
+    &__listens{
+        display: flex;
+        align-items: center;
+        gap: rem(10);
+    }
+
+    &__actions{
+        display: flex;
+        align-items: center;
+        gap: rem(10);
+        padding-left: rem(10);
+
+        border-radius: rem(25);
+        border: 2px solid var(--black50);
+
+        img{
+            display: flex;
+        }
+    }
+}
+
